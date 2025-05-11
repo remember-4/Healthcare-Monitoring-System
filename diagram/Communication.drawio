@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Page-1" id="qQqaJ6Ede2_snj0K990s">
+    <mxGraphModel dx="1025" dy="463" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KGdiZdzLd9ada5E2RO_5-2" value="Cloud Server" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="298" y="223" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-1" value="IoT Device" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="106" y="355" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-3" value="SMS Interface" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="463" y="112" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-4" value="Cloud Database" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="483" y="335" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="367" y="223" as="sourcePoint" />
+            <mxPoint x="454" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-8" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="386" y="309" as="sourcePoint" />
+            <mxPoint x="466" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="308" as="sourcePoint" />
+            <mxPoint x="198" y="376" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-12" value="1: sendData() --&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-40;" parent="1" vertex="1">
+          <mxGeometry x="169" y="313" width="109" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-15" value="2: n = getDoctorID(p) --&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=40;" parent="1" vertex="1">
+          <mxGeometry x="355" y="315" width="149" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-16" value="p:Patient" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="289" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="333" y="215" as="sourcePoint" />
+            <mxPoint x="333" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-20" value="3: sendAlarm(n) --&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-40;" parent="1" vertex="1">
+          <mxGeometry x="339" y="169" width="122" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-21" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="586" y="154" as="sourcePoint" />
+            <mxPoint x="678" y="154" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-22" value="Doctor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="715" y="117" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6G7wdmvKJEV_Bgb5AnIY-23" value="4: sendAlert() --&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" parent="1" vertex="1">
+          <mxGeometry x="582" y="122" width="108" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
